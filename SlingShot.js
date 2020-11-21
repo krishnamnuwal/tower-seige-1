@@ -3,9 +3,8 @@ class SlingShot{
         var option ={
             bodyA:bodyA,
             pointB:pointB,
-            stiffeness:0.04,
-            length:15,
-            density:0.8
+            stiffness:0.08,
+            length:10,
         }
         this.pointB = pointB
         this.sling = Constraint.create(option);
